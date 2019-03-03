@@ -270,7 +270,7 @@ footer {
     grid-column-end: 9;
     grid-row-start: 30;
     grid-row-end: 35;
-
+}
 
   .description {
     width: 100%;
@@ -281,6 +281,13 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+  
+  nav li {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4;
+  }
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -366,27 +373,4 @@ footer {
     line-height: 1;
   }
 
-  nav li {
-    display: inline-block;
-    width: 100%;
-    line-height: 1.4;
-  }
-
-
-
-  /* ul{
-    width: 100%;
-  } */
-  /* .gallery {
-    display: flex;
-    flex-flow: column wrap;
-  } */
 }
-/*
-html{
-  width: 100%;
-}
-
-body{
-  width:100%;
-} */
